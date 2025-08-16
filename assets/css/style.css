@@ -532,3 +532,32 @@ header {
 .blog-item__more:hover {
   color: #2e80ce;
 }
+/* ============= appintment ============ */
+.appintment {
+  margin: 85px 0px;
+}
+.appintment__inner {
+  padding: 100px 178px;
+  background: #f6fbff;
+  text-align: center;
+}
+.appintment__heading::after {
+  margin-top: 18px;
+  content: " ";
+  display: flex;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  margin: 18px auto 0;
+}
+.appintment__desc {
+  color: #575f66;
+  margin: 18px auto 0;
+  font-weight: 300;
+  font-size: 1.6rem;
+  max-width: 617px;
+}
+.appintment__btn {
+  display: inline-block;
+  margin-top: 38px;
+}
